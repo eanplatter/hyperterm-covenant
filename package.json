@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-covenant",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "covenant theme for hyperterm",
   "main": "index.js",
   "author": "Ean Platter",
