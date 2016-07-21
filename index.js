@@ -1,16 +1,16 @@
-const backgroundColor = '#3A124E'
-const foregroundColor = '#6B818C'
-const darkerBackground = '#00000'
+const backgroundColor = '#B0B0B0'
+const foregroundColor = '#77DFD8'
+const darkerBackground = '#5D5D5D'
 
-const RED = '#CC2936'
-const GREEN = '#99DF45'
-const YELLOW = '#CDDE33'
-const BLUE = '#2255BD'
-const PINK = '#D983D6'
-const CYAN = '#33DED0'
-const LIGHT_GRAY = '#EEE5E9'
-const MEDIUM_GRAY = '#7A7A7A'
-const WHITE = '#FFFFFF'
+const RED = '#C75646'
+const GREEN = '#8EB33B'
+const YELLOW = '#D0B03C'
+const BLUE = '#72B3CC'
+const PINK = '#C8A0D1'
+const CYAN = '#218693'
+const LIGHT_GRAY = '#B0B0B0'
+const MEDIUM_GRAY = '#F7F7F7'
+const WHITE = '#B0B0B0'
 
 const colors = [
   backgroundColor,
