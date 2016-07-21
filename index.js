@@ -1,16 +1,16 @@
-const backgroundColor = ''
-const foregroundColor = ''
-const darkerBackground = ''
+const backgroundColor = '#08415C'
+const foregroundColor = '#6B818C'
+const darkerBackground = '#00000'
 
-const RED = ''
-const GREEN = ''
-const YELLOW = ''
-const BLUE = ''
-const PINK = ''
-const CYAN = ''
-const LIGHT_GRAY = ''
-const MEDIUM_GRAY = ''
-const WHITE = ''
+const RED = '#CC2936'
+const GREEN = '#99DF45'
+const YELLOW = '#F1BF98'
+const BLUE = '#6D82DC'
+const PINK = '#D983D6'
+const CYAN = '#69D5CA'
+const LIGHT_GRAY = '#EEE5E9'
+const MEDIUM_GRAY = '#7A7A7A'
+const WHITE = '#FFFFFF'
 
 const colors = [
   backgroundColor,
@@ -40,7 +40,7 @@ exports.decorateConfig = (config) => {
     cursorColor: foregroundColor,
     colors,
         css: `
-              ${config.css || ''}
+              ${config.css || ''} 
               .tabs_list {
                 background-color: ${darkerBackground} !important;
               }
