@@ -32,7 +32,7 @@ const colors = [
   foregroundColor,
 ]
 
-exports.decorateConfig = (config) => {
+exports.decorateConfig = (config) => (
   Object.assign({}, config, {
     backgroundColor,
     foregroundColor,
@@ -61,7 +61,7 @@ exports.decorateConfig = (config) => {
               }
             `
   })
-}
+)
 
 exports.middleware = () => (next) => (action) => {
   switch(action.type) {
