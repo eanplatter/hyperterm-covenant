@@ -59,7 +59,7 @@ exports.decorateConfig = (config) => (
               .tab_text {
                 border-color: transparent !important;
               }
-            `
+          `
   })
 )
 
